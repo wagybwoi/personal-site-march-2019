@@ -1,0 +1,61 @@
+@font-face {
+  src: url("GaramondPro_Regular.otf");
+  font-family: "Garamond Pro Regular";
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px;
+}
+
+#card {
+  display: inline-block;
+  background-color: white;
+  padding: 27px 20px;
+}
+
+#logo {
+  width: 60px;
+}
+
+#intro {
+  margin: 31px 0;
+}
+
+.text {
+  font-family: "Garamond Pro Regular";
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.link-holder {
+  display: block;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #121212;
+  display: inline-block;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  transition: opacity 1s;
+}
+
+.hide {
+  opacity: 0;
+}
