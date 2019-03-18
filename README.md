@@ -1,2 +1,2 @@
 # March 2019 website
-Minimal Pixi Boilerplate for rapid 2D development. Includes __express__, __webpack__, &amp; __pixi js__.
+March 2019 version of __wageh.me__. Built with webpack-dev-server and pixi.js
