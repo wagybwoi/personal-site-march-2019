@@ -123,8 +123,9 @@ const init = ((loader, resources) => {
     c.classList.remove("hide");
   });
 
+  const randomTimeOffset = Math.floor(Math.random() * 100000);
   app.ticker.add(() => {
-    distortionFilter.uniforms.time = app.ticker.lastTime;
+    distortionFilter.uniforms.time = app.ticker.lastTime + randomTimeOffset;
   });
 
   // Events

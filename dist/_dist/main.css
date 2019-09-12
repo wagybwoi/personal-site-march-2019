@@ -16,7 +16,8 @@ body {
 #card {
   display: inline-block;
   background-color: white;
-  padding: 27px 20px;
+  padding: 57px 50px;
+  border: 3px solid black;
 }
 
 #logo {
@@ -58,4 +59,19 @@ canvas {
 
 .hide {
   opacity: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #card {
+    padding: 50px;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+    margin: 50px;
+    border: 3px solid black;
+  }
+
+  #container {
+    margin: 0;
+    padding: 0;
+  }
 }
