@@ -65,7 +65,7 @@ canvas {
   #card {
     padding: 50px;
     width: calc(100vw - 200px);
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
     margin: 50px;
     border: 3px solid black;
   }
